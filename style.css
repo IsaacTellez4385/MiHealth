@@ -1,0 +1,174 @@
+* {
+    margin:0;
+}
+.headerContainer {
+    height:100px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+}
+.headerContent {
+    width:50%;
+    height:100px;
+    display:flex;
+}
+.headerContent ul {
+    list-style: none;
+    display:flex; 
+    margin-left:120px;
+    margin-top:35px;
+    font-family: 'Roboto', sans-serif;
+}
+.headerContent ul li {
+    padding:0px 10px;
+}
+.headerContent a {
+    color:black;
+    text-decoration:none;
+    transition:.5s;
+}
+.headerContent h1 {
+    padding:20px;
+}
+.headerContent a:hover {
+    color:red;
+    font-size:20px;
+}
+p {
+    width:225px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    width:20px;
+}
+.beHealthy {
+    width:20px;
+    font-size:50px;
+    font-family: 'Roboto', sans-serif;
+}
+.content {
+    width:100%;
+    height:500px;
+    background-image:url(test/pattern.webp);
+}
+.contentText {
+    padding:50px;
+    margin-left:30px;
+}
+.mi {
+    color:red;
+    font-family: 'Roboto', sans-serif;
+}
+.health {
+    color:#55a324;
+    margin-left:-25px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.pictures {
+    background-image: url('./test/food.jpeg');
+    background-size:cover;
+    background-position:bottom;
+    width:250px;
+    height:350px;
+    margin-left:400px;
+    margin-top:-350px;
+    position:relative;
+    animation-name:picuresAnimation;
+    animation-duration:3s;
+}
+@keyframes picuresAnimation {
+    0%{margin-left:-1000px;}
+    100%{margin-left:400px;}
+}
+.button {
+    width:150px;
+    height:25px;
+    margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+    transition:.5s;
+}
+.button:hover {
+    background-color:#55a324;
+    padding:10px;
+}
+.fresh {
+    position:absolute;
+    background-color:#55a324;
+    left:100px;
+    bottom:0px;
+    height:50px;
+    width:150px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+.freshTop {
+    position:absolute;
+    background-color:white;
+    left:150px;
+    bottom: 50px;
+    width:100px;
+    height:50px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+.freshTop h4 {
+    margin-top:15px;
+}
+.fresh h4 {
+    margin-top:15px;
+    margin-left:15px;
+}
+.pictures2 {
+    background-image: url('./test/pasta.jpeg');
+    background-size:cover;
+    background-position:bottom;
+    width:250px;
+    height:350px;
+    margin-left:660px;
+    margin-top:-350px;
+    position:relative;
+    animation-name:picuresAnimation1;
+    animation-duration:3s;
+}
+@keyframes picuresAnimation1 {
+    0%{margin-left:-1000px;}
+    100%{margin-left:660px;}
+}
+.pictures3 {
+    background-image: url('./test/shrimp.jpeg');
+    background-size:cover;
+    background-position:bottom;
+    width:250px;
+    height:350px;
+    margin-left:920px;
+    margin-top:-350px;
+    position:relative;
+    animation-name:picuresAnimation2;
+    animation-duration:3s;
+    
+}
+@keyframes picuresAnimation2 {
+    0%{margin-left:-1000px;}
+    100%{margin-left:920px;}
+}
+.freshTop1 {
+    position:absolute;
+    background-color:white;
+    left:125px;
+    bottom: 50px;
+    width:125px;
+    height:50px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+.freshTop1 h4 {
+    margin-top:15px;
+}
+.scroller {
+    width:100px;
+    height:1000px;
+    background-color:white;
+}
+    
